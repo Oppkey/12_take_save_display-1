@@ -139,10 +139,21 @@ class PanoramaWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Center(
+      body: Stack(children: [
+        Center(
           child: Panorama(
-        child: Image.file(myFile),
-      )),
+            animSpeed: 1.0,
+            sensorControl: SensorControl.AbsoluteOrientation,
+            child: Image.file(myFile),
+          ),
+        ),
+        SizedBox(
+          height: 80,
+          width: 80,
+          child: Image.network(
+              'https://oppkey.com/wp-content/uploads/2022/01/oppkey_logo_300x300.jpg'),
+        ),
+      ]),
     );
   }
 }
