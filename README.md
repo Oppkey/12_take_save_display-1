@@ -1,4 +1,23 @@
-# 12. Take Save Display 
+# Flutter 360 Image Tutorial with Panorama
+
+Completed code for the challenge covered in this video. 
+
+[Video Tutorial](https://youtu.be/01e-yxe_Uxk)
+
+![screenshot](docs/modified.gif)
+
+## Tutorial Modifications
+
+* automatic rotation
+* rotation speed
+* brand overlay of logo
+* using motion sensors to change scene
+
+## Download 360 Image Media
+
+If you do not have a RICOH THETA camera, refer to [this post](https://community.theta360.guide/t/2022-getting-started-challenge/8249?u=craig) to download images and
+save them into the gallery of your mobile phone. 
+
 
 A demonstration of using the RICOH THETA X camera with Android and IOS phones.
 
